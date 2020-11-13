@@ -13,7 +13,7 @@ def join_nested_strings(src)
       element_index += 1
     end
     end
-  end
+    end
     row_index += 1
   end
   phrase
