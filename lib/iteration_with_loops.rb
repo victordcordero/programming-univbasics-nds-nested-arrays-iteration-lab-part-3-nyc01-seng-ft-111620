@@ -12,7 +12,6 @@ def join_nested_strings(src)
       phrase << src[row_index][element_index]
       phrase.join
       element_index += 1
-      binding.pry
     end
     end
     row_index += 1
