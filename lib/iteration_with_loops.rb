@@ -14,6 +14,7 @@ def join_nested_strings(src)
       if value == String
         push << value
   end
+end
   phrase
 end
 
