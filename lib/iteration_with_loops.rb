@@ -11,10 +11,9 @@ def join_nested_strings(src)
   # ]
   src.each do |sub_array|
     sub_array.each do |value|
-      if value == String
+      if value.include == String
         push << value
   end
-end
   phrase
 end
 
