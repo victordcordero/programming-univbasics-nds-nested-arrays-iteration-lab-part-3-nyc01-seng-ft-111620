@@ -12,7 +12,7 @@ def join_nested_strings(src)
   src.each do |sub_array|
     sub_array.each do |value|
       if value.is_a? (String)
-        push << value
+        phrase << value
       end
     end
     end
