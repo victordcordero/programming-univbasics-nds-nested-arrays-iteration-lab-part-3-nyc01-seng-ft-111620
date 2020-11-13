@@ -15,7 +15,7 @@ def join_nested_strings(src)
         push << value
       end
     end
-  end
+    end
   phrase
 end
 
