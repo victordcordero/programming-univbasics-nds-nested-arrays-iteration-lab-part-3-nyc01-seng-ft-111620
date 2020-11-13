@@ -13,11 +13,10 @@ def join_nested_strings(src)
     sub_array.each do |value|
       if value.is_a? (String)
         phrase << value
-        phrase.join
       end
     end
     end
-  phrase
+  phrase.join
 end
 
 
