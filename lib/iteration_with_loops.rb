@@ -5,18 +5,22 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   phrase = []
   binding.pry
-  row_index = 0
-  while row_index < src.count do
-    element_index = 0
-    while element_index < src[row_index].count do
-      if src[row_index][element_index].class
-      phrase << (src[row_index][element_index]).to_s
-      phrase.join
-      element_index += 1
-      binding.pry
-    end
-    end
-    row_index += 1
-  end
-  phrase
+
+
 end
+
+
+  # row_index = 0
+  # while row_index < src.count do
+  #   element_index = 0
+  #   while element_index < src[row_index].count do
+  #     if src[row_index][element_index].class
+  #     phrase << (src[row_index][element_index]).to_s
+  #     phrase.join
+  #     element_index += 1
+  #     binding.pry
+  #   end
+  #   end
+  #   row_index += 1
+  # end
+  # phrase
