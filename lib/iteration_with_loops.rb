@@ -3,11 +3,10 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   phrase = []
   row_index = 0
-  string = string.to_s
   while row_index < src.count do
     element_index = 0
     while element_index < src[row_index].count do
-      if src[row_index][element_index].class == string
+      if src[row_index][element_index].class == string.class
       phrase << src[row_index][element_index]
       phrase.join
       element_index += 1
