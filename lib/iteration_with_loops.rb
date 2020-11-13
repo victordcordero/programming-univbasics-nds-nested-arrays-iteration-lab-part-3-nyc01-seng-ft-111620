@@ -10,7 +10,7 @@ def join_nested_strings(src)
     # [101, 233, "Ruby"]
   # ]
   src.each do |sub_array|
-
+    sub_array 
 
   end
   phrase
