@@ -11,7 +11,7 @@ def join_nested_strings(src)
   # ]
   src.each do |sub_array|
     sub_array.each do |value|
-      if value == string.to_s
+      if value == String
         push << value
   end
   phrase
